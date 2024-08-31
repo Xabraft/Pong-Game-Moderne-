@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pong Moderne</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <div id="score-container">
+            <div class="score-box">
+                <span class="player-name">Joueur</span>
+                <span id="playerScore">0</span>
+            </div>
+            <div class="score-box">
+                <span class="player-name">Ordinateur</span>
+                <span id="computerScore">0</span>
+            </div>
+        </div>
+        <canvas id="pongCanvas"></canvas>
+        <div id="start-screen">
+            <h1>PONG</h1>
+            <button id="start-button">Commencer</button>
+        </div>
+    </div>
+    <div id="instructions">
+        <p>Utilisez la souris pour déplacer votre raquette</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
